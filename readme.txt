@@ -7,5 +7,6 @@ git add : add to staging area
 
 git commit -m "Message 1"  : create version
 git log : show version
+git log --stat
 
-
+git diff : show changes
