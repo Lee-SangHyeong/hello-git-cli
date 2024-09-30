@@ -10,3 +10,4 @@ git log : show version
 git log --stat
 
 git diff : show changes
+git log -p
