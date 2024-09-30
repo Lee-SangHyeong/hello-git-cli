@@ -6,5 +6,6 @@ git status : working tree status
 git add : add to staging area
 
 git commit -m "Message 1"  : create version
-git log
+git log : show version
+
 
