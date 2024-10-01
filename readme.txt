@@ -83,3 +83,6 @@ git merge o2
 
 git reset --hard 2065b61 : 이전 마스터 상태로 리셋
 --> 이전 상태로 리셋하고 다시 한번더 병합해 볼것
+
+[아래내용 알고 있나?]
+git fetch -> git merge FETCH_HEAD -> commit -> push
