@@ -1,5 +1,6 @@
 cd D:/01_web/pjt002/gitStudy/hello-git-cli
 
+git : git 설치되어 있다면 명령어 도움내용 제공
 git init : initialize repository
 .git : git repository
 git status : working tree status
@@ -27,3 +28,15 @@ git reset --help : 도움
 
 git revert 4629b440ddec581daa3bce11dd0a85b7de7350ef
     --> revert 는 단계적으로 revert 해야 한다.
+
+[https 원격지 연결 및 push]
+git remote add origin https://github.com/Lee-SangHyeong/hello-git-cli.git : 원격저장소 등록
+git remote : 원격저장소 이름 알아 보기
+git remote -v : 원격저장소 주소 알아 보기
+
+git push : 이명령어 실행 후 아래 명령어 바로 실행하면 
+           --> 다음부터는 git push 명령어는 origin master 로 push 함
+git push --set-upstream origin master
+
+git branch -M main
+git push -u origin main    
