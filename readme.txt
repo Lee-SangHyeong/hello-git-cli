@@ -23,7 +23,7 @@ git commit -am "Message 6" : add 하고 commit까지 한번에 함
 git config --global core.editor "vim"  : 기본 editor 변경 vim 또는 nano
 
 git reset --hard d0e84fe184ec649bb384606da8458b30281c3151 : 
-    --> 이버전이 되겠다 라는 의미  (checkout 차이는 되돌아 가지 못함....?)
+    --> 이버전이 되겠다 라는 의미 삭제의 의미  (checkout 차이는 되돌아 가지 못함....?)
 git reset --help : 도움
 
 git revert 4629b440ddec581daa3bce11dd0a85b7de7350ef
