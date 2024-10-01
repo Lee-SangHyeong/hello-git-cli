@@ -74,3 +74,11 @@ PS D:\01_web\pjt002\gitStudy\hello-git-cli> git log --all --graph --oneline
 * 87a3cf1 (HEAD -> master) work 4
 * 2ac96df (ms, google, apple) content 3
 
+merge 설명
+git commit --amend : commit 문구 수정하고자 할때 명령어
+
+1)병합을 하고자 할때는 먼저 master 상태로 checkout
+2)갖고오고 싶은 브랜치명
+git merge o2
+
+git reset --hard 2065b61 : 이전 마스터 상태로 리셋
