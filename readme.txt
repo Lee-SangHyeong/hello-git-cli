@@ -59,3 +59,18 @@ git branch ms : ms 브랜치 생성
 
 git log --all --graph --oneline
 * 2ac96df (HEAD -> master, ms, google, apple) content 3
+
+PS D:\01_web\pjt002\gitStudy\hello-git-cli> git checkout apple 
+Switched to branch 'apple'
+PS D:\01_web\pjt002\gitStudy\hello-git-cli> git log --all --graph --oneline
+* 87a3cf1 (master) work 4
+* 2ac96df (HEAD -> apple, ms, google) content 3
+
+PS D:\01_web\pjt002\gitStudy\hello-git-cli> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+PS D:\01_web\pjt002\gitStudy\hello-git-cli> git log --all --graph --oneline
+* 87a3cf1 (HEAD -> master) work 4
+* 2ac96df (ms, google, apple) content 3
+
