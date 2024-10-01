@@ -82,3 +82,4 @@ git commit --amend : commit 문구 수정하고자 할때 명령어
 git merge o2
 
 git reset --hard 2065b61 : 이전 마스터 상태로 리셋
+--> 이전 상태로 리셋하고 다시 한번더 병합해 볼것
