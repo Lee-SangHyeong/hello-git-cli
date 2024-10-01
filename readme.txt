@@ -97,3 +97,8 @@ git fetch; git merge FETCH_HEAD
            --> 위 2개 명령어 동일함
            --> 이방법은 신중하게 먼저 갖고 오고
                머지는 나중에 하고자 할때 하는 방식 임
+
+patch : open source 기반으로 진행할때 .... 사용하는 기능: 생활코딩
+  너튜브참조 --> https://www.youtube.com/watch?v=BLm0zsK3K_I&list=PLcDtUrBwapUOQzycPhaGUFnc-ogBOI6N_&index=50
+
+pull request
