@@ -86,3 +86,14 @@ git reset --hard 2065b61 : 이전 마스터 상태로 리셋
 
 [아래내용 알고 있나?]
 git fetch -> git merge FETCH_HEAD -> commit -> push
+
+git pull == git fetch + git merge origin/master 
+           --> git pull은 위 2개 작업하고 일치함
+
+cat .git/FETCH_HEAD -->  branch 'master' of https://github.com/Lee-SangHyeong/hello-git-cli             
+1ae977ae850288f879bf7a9903a786853234eadd            
+
+git fetch; git merge FETCH_HEAD
+           --> 위 2개 명령어 동일함
+           --> 이방법은 신중하게 먼저 갖고 오고
+               머지는 나중에 하고자 할때 하는 방식 임
