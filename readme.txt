@@ -40,3 +40,8 @@ git push --set-upstream origin master
 
 git branch -M main
 git push -u origin main    
+
+[원격저장소 복사 방법]
+git clone https://github.com/Lee-SangHyeong/hello-git-cli.git [원하는 폴더명]
+  --> 원하는 폴더에서 위 명령어 입력 하면 됨
+  --> [원하는 폴더명:생략하면 hello-git-cli 폴더]
