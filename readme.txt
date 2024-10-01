@@ -48,3 +48,14 @@ git clone https://github.com/Lee-SangHyeong/hello-git-cli.git my-repo
   --> [원하는 폴더명:생략하면 hello-git-cli 폴더]
 
 git pull : 원격지 자료 갖고옴
+
+[로그 보기 옵션등]
+git log --all --graph --oneline
+
+git branch : 브랜치 목록 조회
+git branch apple : apple 브랜치 생성
+git branch google : google 브랜치 생성
+git branch ms : ms 브랜치 생성
+
+git log --all --graph --oneline
+* 2ac96df (HEAD -> master, ms, google, apple) content 3
